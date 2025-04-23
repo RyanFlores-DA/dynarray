@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="dynarray",
-    version="0.1.0",
+    name="dynarr",
+    version="0.2.0",
     packages=find_packages(),
     install_requires=[],
     author="Ryan Flores",

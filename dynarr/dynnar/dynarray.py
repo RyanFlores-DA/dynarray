@@ -1,11 +1,11 @@
 from typing import List
 
-class Dynarray:
+class Dynnar:
     def __init__(self):
         self.__index_variable = {i: [] for i in range(1, 10)}
         self.__CURRENT_INDEX = None
 
-    def index_object(self, value: str) -> "Dynarray":
+    def index_object(self, value: str) -> "Dynnar":
         first_digit = int(str(value)[0])
         if first_digit in self.__index_variable:
             self.__CURRENT_INDEX = first_digit
