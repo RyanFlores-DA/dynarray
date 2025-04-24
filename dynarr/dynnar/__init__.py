@@ -1,1 +1,1 @@
-from .dynarray import Dynnar
+from .dynarr_core import Dynnar
